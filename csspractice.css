@@ -39,7 +39,7 @@
     height:300px;
     width:20%;
     border-radius:12px;
-    box-shadow:2px 2px 4px 8px lightgray;
+    box-shadow:3px 3px 10px 2px gray;
     opacity: 1px;
     
 }
@@ -95,8 +95,8 @@
 
 
 .completediv{
-    /* background-color:lightgray; */
-    /* filter: blur(2px); */
+    background-color:lightgray;
+    filter: blur(2px);
 }
 
 
@@ -144,7 +144,7 @@
 .btn{
     background-color: blue;
     color: White;
-    font-size: 15px;
+    font-size: 18px;
     height: 40px;
     width:140px;
     position: absolute;
@@ -202,3 +202,5 @@ position:absolute;
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+
