@@ -1,0 +1,255 @@
+.tasks{
+    font-size: 40px;
+    font-weight: 900px;
+    letter-spacing: 0.9px;
+    margin-left: 100px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    body{
+        background-color: lightgreen;
+    }
+    .tasks{
+        margin-top:30px;
+        margin-left:10px;
+        margin-bottom: 50px;
+        font-weight: 600;
+        /* background-color: red; */
+    }
+}
+    @media screen and (min-width:320px) and (max-width:480px){
+        
+    
+    .lists{
+        font-weight: 900px;
+    }
+    
+}
+.lists{
+    font-size: 35px;
+    font-weight: 900px;
+    letter-spacing: 0.9px;
+    margin-left: 7px;
+    color: blue;
+}
+.outer{
+    /* background-color: green; */
+    position: absolute;
+    right: 100px;
+    display: flex;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .outer{
+        margin-bottom: 30px;
+        position: relative;
+        left: 80px;
+        margin-top: 30px;
+        width: 100%;
+        /* background-color: yellowgreen; */
+        
+    }
+    .completediv{
+        border:0px;
+    }
+    
+}
+
+.task{
+    /* display:     ; */
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 14px;
+    letter-spacing: 0.7px;
+}
+.outsider{
+    display: flex;
+    border:1px solid gray;
+    justify-content: flex-start;
+    /* height: 1000px; */
+    
+    flex-wrap: wrap;
+}
+.first{
+    border: 2px solid gray;
+    margin-top: 100px;
+    margin-right:20px;
+    margin-left: 100px;     
+    height:300px;
+    width:20%;
+    border-radius:12px;
+    box-shadow:3px 3px 10px 2px gray;
+    opacity: 1px;
+    
+}
+@media screen and (min-width:320px) and (max-width:480px)
+{
+  
+.first{
+    /* background-color: white; */
+    margin-top: 18px;
+    margin-left:13px;
+    margin-right: 13px;
+    margin-bottom:0px;
+    height: 300px;
+    width: 100%;
+    
+}
+
+}
+.todo
+{
+    padding:20px;
+    color:blue;
+    font-size:20px;
+    letter-spacing:0.8px;
+    font-weight: 700;
+}
+.div2{
+    /* background-color: greenyellow; */
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+#checkbox{
+    /* padding-bottom: 15px; */
+    height:25px;
+    width:25px;
+    /* background-color: gray; */
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.visit{
+    font-size: 18px;
+    text-decoration: line-through solid gray;
+    color: gray;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.div3{
+    /* background-color: blue; */
+    display: flex;
+    margin: 10px;
+    padding:10px;
+}
+.small{
+    height:28px;
+    width:28px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.shop{
+    margin-top: 5px;
+    margin-left: 12px;
+    font-size: 18px;
+
+}
+/* This is for second page */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .completedi{
+        background-color: gray;
+        filter: blur(3px);
+    }
+    
+}
+.completedi{
+    background-color: gray;
+    filter: blur(3px);
+}
+    
+
+.seconddiv{
+        
+    left:33%;
+    top: 37%;
+    
+    position:absolute;
+    height: 33vh;
+    width:30%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.button
+{
+    border:0px;
+    background-color:blue;
+    height: 40px;
+    width:120px;
+    position: absolute;
+    right: 50px;
+    bottom:25px;
+    border-radius: 12px;
+    font-size: 18px;
+    color: white;
+    
+}
+.s1{
+    margin-top: 20px;
+    margin-bottom:15px;
+    margin-left: 15px;
+    position: absolute;
+    font-size: 20px;
+}
+#textareaa{
+    border-radius:8px;
+    margin:20px;
+    margin-top: 80px;
+    padding: 5px;
+    width: 250px;
+}
+.s2{
+    border:0px;
+    position: absolute;
+    left: 350px;
+    padding-top:13px;
+    background-color: white;
+    font-size: 35px;
+}
+@media  screen and (min-width:320px ) and (max-width:480px) {
+    .seconddiv{
+        
+        left:4%;
+        top: 35%; 
+        position:absolute;
+        height: 27vh;
+        width:62%;
+        /* margin: ;  */
+        background-color: red;
+        /* border-radius: 8px; */
+    }
+    .s2{
+        background-color: red;
+        margin-left: 0px;
+        /* margin-right: 400px; */
+        position: absolute;
+        left: 200px;
+
+
+    }
+    #textareaa{
+        width:180px;
+        margin-top: 70px;
+    }
+    
+}
+
+/* This is for 3rd one */
+@media screen and (min-width:320px) and (max-width:480px){
+    .back
+    {
+        font-size: 40px;
+        position: absolute;
+        left: 0px;
+        /* padding: 10px; */
+        /* margin-top: 10px; */
+    }    
+}
+.back
+{
+    font-size: 40px;
+    position: relative;
+    /* right: 600px; */
+    margin-top: 10px;
+    left:140px;
+}
